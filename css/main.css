@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --card-color: hsl(0, 0%, 100%);
+  --body-color: hsl(212, 45%, 89%);
+  --text-color: hsl(220, 15%, 55%);
+  --heading-color: hsl(218, 44%, 22%);
+  --link-color: #227cf2;
+  --ff-body-text: "Outfit";
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img {
+  display: inline;
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  line-height: 1.5;
+  font-size: 0.938rem;
+}
+
+body {
+  background-color: var(--body-color);
+  font-family: var(--ff-body-text);
+  display: grid;
+  place-content: center;
+}
+
+.qr-card {
+  max-width: 300px;
+  height: auto;
+  background-color: var(--card-color);
+  padding: 1em;
+  border-radius: 1em;
+}
+.qr-card .qr-img img {
+  border-radius: 1em;
+}
+.qr-card .qr-details {
+  padding: 1em 0.2em;
+  display: grid;
+  gap: 0.6em;
+  text-align: center;
+}
+.qr-card .qr-details h1 {
+  color: var(--heading-color);
+}
+.qr-card .qr-details p {
+  color: var(--text-color);
+}
+
+.attribution {
+  max-width: 300px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+.attribution a:hover {
+  color: var(--heading-color);
+}/*# sourceMappingURL=main.css.map */

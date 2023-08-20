@@ -4,9 +4,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](/images/Screenshot%202023-08-17%20at%2018-47-35%20Frontend%20Mentor%20QR%20code%20component.png)
+![Screenshot](/assets/images/Screenshot%202023-08-17%20at%2018-47-35%20Frontend%20Mentor%20QR%20code%20component.png)
 
 ### Built with
 
 - HTML
-- CSS
+- SCSS/CSS

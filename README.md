@@ -13,4 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Site Link
 
-<a href="https://neitodesu.github.io/QR-Code-Card/" target="_blank">QR Code</a>
+[QR CODE](https://neitodesu.github.io/QR-Code-Card/ "QR CODE")
+
+*click below* <br>
+<a href="https://neitodesu.github.io/QR-Code-Card/" target="_blank">New Link</a>
